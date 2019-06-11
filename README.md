@@ -1,1 +1,4 @@
-# react-workshop-intro
+```
+cd workshop-app
+npm start
+```
