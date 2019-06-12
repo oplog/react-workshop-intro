@@ -12,7 +12,7 @@ class ClassComponent extends React.Component {
     }
 }
 
-function Components() {
+function ComponentExamples() {
     return <>
         {/* Passing props to components */}
         <FunctionComponent name='Hande' />
@@ -27,4 +27,4 @@ function Components() {
 
 //The above two components are equivalent from React’s point of view.
 
-export default Components;
+export default ComponentExamples;

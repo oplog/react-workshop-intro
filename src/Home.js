@@ -10,6 +10,8 @@ function Home() {
                 <p><a href="/">Home</a></p>
                 <p><a href="/hello">HelloWorld</a></p>
                 <p><a href="/components">React Components</a></p>
+                <p><a href="/state">State</a></p>
+                <p><a href="/events">React Events</a></p>
             </header>
         </div>
     );
