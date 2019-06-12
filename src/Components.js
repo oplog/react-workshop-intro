@@ -14,8 +14,14 @@ class ClassComponent extends React.Component {
 
 function Components() {
     return <>
+        {/* Passing props to components */}
         <FunctionComponent name='Hande' />
         <ClassComponent name='Hande' />
+        {/* Composing components */}
+        {/* <FunctionComponent name='Hande' />
+        <FunctionComponent name='Hande' />
+        <FunctionComponent name='Hande' />
+        <FunctionComponent name='Hande' /> */}
     </>;
 }
 
