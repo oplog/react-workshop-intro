@@ -12,6 +12,8 @@ function Home() {
                 <p><a href="/components">React Components</a></p>
                 <p><a href="/state">State</a></p>
                 <p><a href="/events">React Events</a></p>
+                <p><a href="/conditional">Conditional Components</a></p>
+                <p><a href="/loops">Loops</a></p>
             </header>
         </div>
     );

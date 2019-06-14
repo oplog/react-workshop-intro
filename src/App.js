@@ -7,6 +7,8 @@ import { createBrowserHistory } from "history";
 import ComponentExamples from './ComponentExamples';
 import StateExamples from './StateExamples';
 import EventExamples from './EventExamples';
+import ConditionalComponents from './ConditionalComponents';
+import Loops from './Loops';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <Route path="/components" component={ComponentExamples} />
       <Route path="/state" component={StateExamples} />
       <Route path="/events" component={EventExamples} />
+      <Route path="/conditional" component={ConditionalComponents} />
+      <Route path="/loops" component={Loops} />
     </Router>
   );
 }

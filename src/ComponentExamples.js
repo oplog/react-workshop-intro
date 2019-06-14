@@ -28,3 +28,9 @@ function ComponentExamples() {
 //The above two components are equivalent from React’s point of view.
 
 export default ComponentExamples;
+
+
+// pure function
+function sum(a, b) {
+    return a + b;
+}
